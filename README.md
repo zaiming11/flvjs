@@ -1,4 +1,6 @@
-此项目flv.js下载到本地src/assets中引用的 
+vue
+
+此vue项目flv.js下载到本地src/assets中引用的 
 
 import "../assets/flvjs/flv.min.js";
 
