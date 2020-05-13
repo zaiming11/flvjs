@@ -1,9 +1,9 @@
-<!-- 此项目flv.js下载到本地src/assets中引用的 -->
-<!-- npm安装方法 -->
-<!-- 安装flvjs -->
+此项目flv.js下载到本地src/assets中引用的 
+ npm安装方法 
+ 安装flvjs 
 npm install --save flv.js
 
-<!-- 在build文件夹中的webpack.base.conf.js -->
+ 在build文件夹中的webpack.base.conf.js 
 
 var webpack = require('webpack');
 
@@ -21,10 +21,10 @@ resolve: {
     })
   ],
 
-  <!-- 全局引用 -->
+   全局引用 
   import flvjs from 'flvjs';
 Vue.use(flvjs);
 
-<!-- 单页面引用 -->
+ 单页面引用 
 
 import flvjs from "flv.js/dist/flv.js";
